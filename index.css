@@ -1,0 +1,35 @@
+*{padding:0px;margin:0px;}
+html, body{
+	 width:100%;
+	 height:100%;
+	 margin:0px;
+	 padding:0px;
+}
+.board_view{
+	width:calc(70% - 10px);
+	height:calc(100% - 10px);
+    margin:5px;
+    background:#ddd;
+	padding:5px;
+	border:1px solid #ddd;
+	float:left;
+}
+.board_view .bb{
+	overflow:auto;
+	height:100%;
+}
+.card_view{
+	width:calc(30% - 10px);
+	height:calc(100% - 10px);
+    margin:5px;
+    background:#ddd;
+	overflow:auto;
+	padding:5px;
+	border:1px solid #ddd;
+	float:left;
+}
+.card{
+	 border:1px solid #ddd;
+	 padding:10px;
+	 margin:10px 0px;
+}
